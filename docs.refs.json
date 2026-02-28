@@ -1,0 +1,50 @@
+[
+    {
+        "documentation": {
+            "1": {
+                "name": "React",
+                "link": "https://react.dev/"
+            },
+            "2": {
+                "name": "vite",
+                "link": "https://vite.dev/guide/"
+            },
+            "3": {
+                "name": "tailwindcss",
+                "link": "https://tailwindcss.com/docs/installation/using-vite"
+            },
+            "4": {
+                "name": "Github Actions",
+                "link": "https://docs.github.com/en/actions"
+            }
+        },
+        "references": {
+            "Project Structure": {
+                "1": {
+                    "author": "Nathan Chung",
+                    "site": "Dev.to",
+                    "link": "https://dev.to/algo_sync/how-to-structure-a-react-project-in-2025-clean-scalable-and-practical-15j6",
+                    "dateAccessed": "2026, 28 Feb"
+                },
+                "2": {
+                    "author": "Akash Joshi",
+                    "site": "FreeCodeCamp",
+                    "link": "https://www.freecodecamp.org/news/a-better-way-to-structure-react-projects/",
+                    "dateAccessed": "2026, 28 Feb"
+                },
+                "3": {
+                    "author": "Sparkle Web",
+                    "site": "Medium",
+                    "link": "https://medium.com/@sparklewebhelp/react-project-structures-types-and-best-practices-bb0435dbeab2",
+                    "dateAccessed": "2026, 28 Feb"
+                },
+                "4": {
+                    "author": "souravsharma098",
+                    "site": "geeksforgeeks",
+                    "link": "https://www.geeksforgeeks.org/reactjs/folder-structure-for-a-react-js-project/",
+                    "dateAccessed": "2026, 28 Feb"
+                }
+            }
+        }
+    }
+]

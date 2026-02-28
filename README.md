@@ -1,75 +1,50 @@
-# React + TypeScript + Vite
+# Media Library UI: Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+As the name suggest, this is media library ui.
+A frontend for your media library api backend.
+A test project to learn an practice React + Typescript + Tailwindcss.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Branches
 
-## React Compiler
+There are 2 main branches: **main**, **dev**.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+#### * main
 
-Note: This will impact Vite dev & build performances.
+Source of truth for the project.
+Do not make changes directly on this branch.
+Changes need to be made on the **dev** branch and then merged into **main**.
 
-## Expanding the ESLint configuration
+#### * dev
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The branch that you will work in most.
+Make your changes here and then create a pull request to merge into **main**.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Top Level Folder Stucture: Outline
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* src/
+  * core/
+    * Global configurations, assets/, context providers/, styles/
+  * layouts/
+    * Application-level layouts
+  * features/
+    * Specific functionality that includes: components/, hooks/, type/, views/, routes/, etc...
+  * shared/
+    * Shared functionality such as components/, hooks/, utils/
+  * store/
+    * Contains files related to state management such as Redux store configurations, actions, and reducers.
+  * routes/
+    * Global routing rules
+  * App.tsx
+    * Application container
+  * main.tsx
+    * React entry point
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### References
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+A list of references and documentation that I've researched and/used for this project can be found inside the **_docs.refs.json_** file.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### AI
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+No AI has been or is currently being used in this project.
