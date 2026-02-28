@@ -1,4 +1,5 @@
 
+import './core/styles/App.css'
 
 function App() {
 
