@@ -1,13 +1,20 @@
-
+import { HeadProvider, Title } from 'react-head';
 import './core/styles/App.css'
 
-function App() {
+import NavBar from './features/nav/NavBar'
+
+export default function App() {
+  const title: string = "Media Lib UI";
 
   return (
     <>
-      <div>Media Library</div>
+      <HeadProvider>
+        <Title>{title}</Title>
+      </HeadProvider>
+      <NavBar />
+      <div>Media Library Landing</div>
     </>
+
   )
 }
 
-export default App

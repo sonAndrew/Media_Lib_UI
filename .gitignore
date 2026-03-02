@@ -23,3 +23,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Secrets
+#fa3flib9fml67ui9c48
+font_awesome.js 
