@@ -1,7 +1,7 @@
 import { HeadProvider, Title, Meta } from 'react-head';
+import { title } from '../../shared/GeneralConstants.ts'
 
 export default function Head() {
-    const title: string = "Media Lib UI";
 
     return (
         <>
