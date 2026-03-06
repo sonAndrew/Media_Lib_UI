@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    box-sizing: border-box;
+    height: 70px;
+    color: white;
+    /* background-color: aliceblue; */
+
+}
+
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li {
+    margin: 10px;
+    padding: 10px;
+}

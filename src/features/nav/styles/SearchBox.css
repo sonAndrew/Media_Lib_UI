@@ -1,0 +1,15 @@
+div.search-container {
+    border-radius: 10px;
+    height: 35px;
+    width: 260px;
+    background-color: rgba(49, 35, 35, 0.678);
+    margin-top: 15px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 5px;
+    height: 100%;
+}

@@ -1,12 +1,15 @@
-import Search from './components/search'
+import './styles/NavBar.css'
+
+import NavLinks from './components/NavLinks';
+import SearchBox from './components/SearchBox';
 
 
 export default function NavBar() {
 
     return (
         <nav>
-            <Search />
-            NAV
+            <NavLinks />
+            <SearchBox />
         </nav>
     )
 }
