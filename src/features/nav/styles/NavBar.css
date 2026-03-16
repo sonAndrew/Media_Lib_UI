@@ -2,6 +2,7 @@ nav {
     display: flex;
     box-sizing: border-box;
     height: 70px;
+    width: 70%;
     color: white;
     /* background-color: aliceblue; */
 

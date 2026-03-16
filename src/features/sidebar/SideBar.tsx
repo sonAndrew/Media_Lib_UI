@@ -1,14 +1,15 @@
 import Logo from "../../core/components/Logo";
+import SideBarSection from "./components/SideBarSection";
+import { sections } from "./types/ISideBar.td";
 
+import './styles/SideBar.css';
 
 export default function SideBar() {
 
     return (
         <div id="sideBar">
-            <div><Logo /></div>
-            <div className="menu">Menu</div>
-            <div className="library">Library</div>
-            <div className="general">General</div>
+            <div className="logo"><Logo /></div>
+            {sections.map(sect => <SideBarSection section={sect} />)}
         </div>
     )
 }
