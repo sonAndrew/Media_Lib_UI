@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-} */
+#root {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+#sideBar,
+nav {
+  border: 1px solid white;
+}

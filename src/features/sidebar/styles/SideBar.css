@@ -1,0 +1,11 @@
+#sideBar {
+    width: 30%;
+    color: white;
+    padding-left: 10px;
+}
+
+.section>ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
