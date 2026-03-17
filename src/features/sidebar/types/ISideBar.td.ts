@@ -1,35 +1,35 @@
 
 export default interface ISection {
     title: string,
-    icon: Array<string>,
+    icons: Array<string>,
     classname: Array<string>,
     listItems: Array<string>,
 };
 
 export const logoSections: ISection = {
     title: "",
-    icon: ["fa-solid fa-m"],
+    icons: ["fa-solid fa-m"],
     classname: ["section"],
-    listItems: ["Menu", "Library", "General"],
+    listItems: [],
 };
 
 export const menuSection: ISection = {
     title: "Menu",
-    icon: ["fa-regular fa-house", "fa-solid fa-award"],
+    icons: ["fa-regular fa-house", "fa-solid fa-award"],
     classname: ["menu"],
     listItems: ["Home", "Discover", "Awards", "Celebrities"]
 };
 export const librarySection: ISection = {
     title: "Library",
-    icon: ["fa-regular fa-clock", "fa-regular fa-star", "fa-regular fa-download", "fa-regular fa-heart", ""],
+    icons: ["fa-regular fa-clock", "fa-regular fa-star", "fa-regular fa-download", "fa-regular fa-square-check", "fa-regular fa-heart-circle-plus"],
     classname: ["library"],
     listItems: ["Recent", "Top Rated", "Downloaded", "Watchlist"]
 };
 export const generalSection: ISection = {
     title: "General",
-    icon: [],
+    icons: ["fa-regular fa-wrench", "fa-regular fa-user-gear"],
     classname: ["general"],
-    listItems: ["Home", "Discover", "Awards", "Celebrities"],
+    listItems: ["Settings", "Log Out"],
 };
 
 export const sections: Array<ISection> = [
