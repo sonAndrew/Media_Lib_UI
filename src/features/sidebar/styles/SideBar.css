@@ -2,14 +2,14 @@
     width: 20%;
     height: 100%;
     color: white;
-    padding-left: 60px;
-    padding-top: 25px;
+    padding-left: 4%;
+    padding-top: 10px;
 }
 
 .section {
-    width: 50%;
-    height: 200px;
-    margin-top: 50px;
+    width: 70%;
+    height: 30%;
+    padding-top: 50px;
 }
 
 .section>ul {
@@ -38,6 +38,7 @@
     border-radius: 3px;
     box-shadow: 2px 3px 10px 1px #161616;
     padding: 10px;
+    margin-top: 80px;
 }
 
 .logo>i {
