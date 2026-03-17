@@ -2,15 +2,14 @@
     width: 20%;
     height: 100%;
     color: white;
-    padding-left: 40px;
+    padding-left: 60px;
     padding-top: 25px;
 }
 
 .section {
     width: 50%;
     height: 200px;
-    margin-top: 20px;
-
+    margin-top: 50px;
 }
 
 .section>ul {
@@ -32,16 +31,17 @@
 }
 
 .logo-container {
-    width: 200px;
+    background-color: #32323C;
+    width: 70%;
     height: 100px;
     text-align: center;
-    border-radius: -1px;
-    box-shadow: 0px 0px 5px 0px #32323C;
+    border-radius: 3px;
+    box-shadow: 2px 3px 10px 1px #161616;
     padding: 10px;
 }
 
 .logo>i {
-    width: 100px;
+    width: 90%;
     height: 50%;
     margin-top: 30px;
 }
