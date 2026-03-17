@@ -8,7 +8,7 @@ export default function SideBar() {
 
     return (
         <div id="sideBar">
-            <div className="logo"><Logo /></div>
+            <div className="section logo-container"><span className="logo"><Logo /></span></div>
             {sections.map(sect => <SideBarSection section={sect} />)}
         </div>
     )
