@@ -2,7 +2,8 @@ div.search-container {
     border-radius: 10px;
     height: 35px;
     width: 260px;
-    background-color: rgba(49, 35, 35, 0.678);
+    /* background-color: rgba(49, 35, 35, 0.678); */
+    background-color: rgba(50, 50, 60, 0.678);
     margin-top: 15px;
 }
 
