@@ -7,15 +7,13 @@
   height: 100%;
 }
 
-#sideBar,
-nav {
+nav,
+#contentSection,
+#sideBar {
   border: 1px solid white;
 }
 
-#sideBar {
-  width: 20%;
+#rightSection {
+  width: 80%;
   height: 100%;
-  color: white;
-  padding-left: 40px;
-  padding-top: 25px;
 }
